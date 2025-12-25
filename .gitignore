@@ -1,0 +1,18 @@
+cat > .gitignore <<'EOF'
+# Large data
+omega.2024.nc
+rhum.2025.nc
+*.nc
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
